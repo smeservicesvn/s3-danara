@@ -1,24 +1,40 @@
-# s3-danara
+# danara.vn – Coming Soon
 
-Tạo trang sắp ra mắt theo design token danara.vn
+Trang sắp ra mắt của **danara.vn**, nền tảng căn hộ verified tại Đà Nẵng.
 
-This project was built with [Lovable](https://lovable.dev).
+## Giới thiệu
 
-## Build with Lovable
+Trang hiện đang hiển thị màn hình chờ (coming soon) với:
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/7a30ec2c-ca78-452e-8cf9-fa48876f8f99).
+- Bộ đếm ngược đến ngày ra mắt (01/10/2026)
+- Ô đăng ký email để nhận thông báo khi mở cửa
+- Thiết kế tối giản theo phong cách danara.vn: nền kem ấm, chữ nâu, điểm nhấn nâu đồng và xanh rêu
+- Font chữ **Be Vietnam Pro**
+- Responsive cho mobile và desktop
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## Công nghệ
 
-## Development
+- [TanStack Start](https://tanstack.com/start)
+- [React](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS v4](https://tailwindcss.com)
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Chạy local
 
 ```sh
-git clone <this-repository-url>
+git clone <repository-url>
 cd <repository-name>
 npm i
 npm run dev
 ```
+
+Mở [http://localhost:3000](http://localhost:3000) trong trình duyệt.
+
+## Lưu ý
+
+- Ngày ra mắt hiện tại là giả định. Có thể cập nhật trong `src/routes/index.tsx`.
+- Ô email hiện chỉ hiển thị thông báo cảm ơn. Để lưu email thật, cần tích hợp backend hoặc dịch vụ form.
+
+## Built with Lovable
+
+Project được xây dựng và quản lý trên [Lovable](https://lovable.dev).
