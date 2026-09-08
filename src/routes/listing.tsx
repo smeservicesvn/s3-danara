@@ -105,9 +105,7 @@ function Listing() {
 
         <section className="mt-10">
           <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
-            Căn hộ rộng rãi ngay trung tâm Đà Nẵng, chỉ vài bước chân tới chợ Hàn, Nhà thờ Chính
-            tòa, sông Hàn cùng vô số quán café và nhà hàng. Thưởng thức café đặc sản miễn phí mỗi
-            sáng. Lý tưởng cho cặp đôi, người đi công tác và digital nomad.
+            {property.description}
           </p>
         </section>
 
