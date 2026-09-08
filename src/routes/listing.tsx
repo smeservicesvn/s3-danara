@@ -117,12 +117,12 @@ function Listing() {
 
         <div className="mt-8 grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3">
           <img
-            src={photos[0].src}
-            alt={photos[0].alt}
+            src={heroPhoto.src}
+            alt={heroPhoto.alt}
             className="col-span-2 row-span-2 h-full w-full rounded-2xl object-cover"
             loading="eager"
           />
-          {photos.slice(1).map((p) => (
+          {gridPhotos.map((p) => (
             <img
               key={p.src}
               src={p.src}
