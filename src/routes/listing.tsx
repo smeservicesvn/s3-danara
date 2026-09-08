@@ -35,15 +35,17 @@ export const Route = createFileRoute("/listing")({
 const IMG = (id: string) =>
   `https://a0.muscache.com/im/pictures/hosting/Hosting-1716678250223860210/original/${id}.png?im_w=960`;
 
-const photos = [
-  { src: IMG("11b0b83f-92e7-482a-9e44-59de4513f67f"), alt: "Phòng ngủ studio" },
+const heroPhoto = {
+  src: IMG("11b0b83f-92e7-482a-9e44-59de4513f67f"),
+  alt: "Phòng ngủ studio",
+};
+
+const gridPhotos = [
   { src: IMG("d0973f78-cb52-4d60-b231-51e2946bf43f"), alt: "Không gian sống" },
   { src: IMG("c83a4d8d-17e7-4f02-ac4f-7dd497befc97"), alt: "Bếp và bàn ăn" },
   { src: IMG("703c61a6-1083-47d2-ac56-ef949d0d81f9"), alt: "Phòng tắm" },
   { src: IMG("518cab97-39a0-4fb4-b09b-bb6f67172856"), alt: "Ban công" },
 ];
-
-const [heroPhoto, ...gridPhotos] = photos;
 
 const spaces = [
   {
