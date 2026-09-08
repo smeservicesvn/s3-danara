@@ -73,19 +73,15 @@ function Listing() {
         <header className="mt-10">
           <span className="inline-flex w-fit items-center gap-2 rounded-full bg-teal-soft px-3 py-1 text-xs font-medium text-teal-text">
             <span className="h-1.5 w-1.5 rounded-full bg-teal" />
-            Quận Hải Châu, Đà Nẵng
+            {property.location}
           </span>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-            Studio gần chợ Hàn — trung tâm Đà Nẵng
-          </h1>
-          <p className="mt-3 text-sm text-muted-foreground">
-            1 giường queen · Phòng tắm riêng · Café đặc sản miễn phí mỗi sáng
-          </p>
+          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">{property.title}</h1>
+          <p className="mt-3 text-sm text-muted-foreground">{property.summary}</p>
           <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1.5 font-medium">
-              ★ 5.0 · 13 đánh giá
+              ★ {property.rating.toFixed(1)} · {property.reviews} đánh giá
             </span>
-            <span className="text-muted-light">Được khách yêu thích · Host: Anh</span>
+            <span className="text-muted-light">Được khách yêu thích · Host: {property.host}</span>
           </div>
         </header>
 
