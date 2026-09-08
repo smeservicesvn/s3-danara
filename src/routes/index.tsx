@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 
 export const Route = createFileRoute("/")({
@@ -125,6 +125,14 @@ function ComingSoon() {
                 : "Chúng tôi chỉ gửi một email duy nhất khi ra mắt."}
             </p>
           </form>
+
+          <Link
+            to="/listing"
+            className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
+          >
+            Xem căn mẫu tại Đà Nẵng
+            <span aria-hidden>→</span>
+          </Link>
         </div>
 
         <footer className="border-t border-border pt-6 text-xs text-muted-light">
