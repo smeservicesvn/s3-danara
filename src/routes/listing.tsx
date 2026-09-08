@@ -32,56 +32,26 @@ export const Route = createFileRoute("/listing")({
   component: Listing,
 });
 
-const IMG = (id: string) =>
-  `https://a0.muscache.com/im/pictures/hosting/Hosting-1716678250223860210/original/${id}.png?im_w=960`;
+import property from "@/data/property.json";
+import bedroom from "@/assets/bedroom.jpg";
+import living from "@/assets/living.jpg";
+import kitchen from "@/assets/kitchen.jpg";
+import bathroom from "@/assets/bathroom.jpg";
+import balcony from "@/assets/balcony.jpg";
 
-const heroPhoto = {
-  src: IMG("11b0b83f-92e7-482a-9e44-59de4513f67f"),
-  alt: "Phòng ngủ studio",
+const IMAGES: Record<string, string> = {
+  "bedroom.jpg": bedroom,
+  "living.jpg": living,
+  "kitchen.jpg": kitchen,
+  "bathroom.jpg": bathroom,
+  "balcony.jpg": balcony,
 };
 
-const gridPhotos = [
-  { src: IMG("d0973f78-cb52-4d60-b231-51e2946bf43f"), alt: "Không gian sống" },
-  { src: IMG("c83a4d8d-17e7-4f02-ac4f-7dd497befc97"), alt: "Bếp và bàn ăn" },
-  { src: IMG("703c61a6-1083-47d2-ac56-ef949d0d81f9"), alt: "Phòng tắm" },
-  { src: IMG("518cab97-39a0-4fb4-b09b-bb6f67172856"), alt: "Ban công" },
-];
+const photos = property.photos.map((p) => ({ src: IMAGES[p.file] ?? "", alt: p.alt }));
+const heroPhoto = photos[0] ?? { src: "", alt: "" };
+const gridPhotos = photos.slice(1);
 
-const spaces = [
-  {
-    title: "Phòng ngủ",
-    text: "Phòng ngủ sáng và ấm cúng với giường queen, ga mềm, điều hòa và tủ quần áo.",
-  },
-  {
-    title: "Khu vực sinh hoạt",
-    text: "Smart TV, ghế ngồi thoải mái và góc làm việc với Wi-Fi tốc độ cao.",
-  },
-  {
-    title: "Bếp",
-    text: "Bếp nhỏ đầy đủ: tủ lạnh, lò vi sóng, ấm đun, nồi chảo và bát đũa cơ bản.",
-  },
-  {
-    title: "Phòng tắm",
-    text: "Phòng tắm riêng với nước nóng, khăn sạch, dầu gội, sữa tắm và máy sấy tóc.",
-  },
-  {
-    title: "Ban công",
-    text: "Ban công riêng ngắm thành phố — lý tưởng cho ly café buổi sáng.",
-  },
-  {
-    title: "Café đặc sản",
-    text: "Miễn phí café đặc sản từ quán của chúng tôi mỗi sáng.",
-  },
-];
-
-const highlights = [
-  { title: "Tự nhận phòng", text: "Nhận phòng qua nhân viên tòa nhà." },
-  {
-    title: "Vị trí yên tĩnh, thuận tiện",
-    text: "Khu vực thanh bình, dễ dàng di chuyển khắp thành phố.",
-  },
-  { title: "Phòng riêng trong căn hộ", text: "Phòng riêng của bạn, dùng chung một số không gian." },
-];
+const { spaces, highlights } = property;
 
 function Listing() {
   return (
@@ -103,19 +73,15 @@ function Listing() {
         <header className="mt-10">
           <span className="inline-flex w-fit items-center gap-2 rounded-full bg-teal-soft px-3 py-1 text-xs font-medium text-teal-text">
             <span className="h-1.5 w-1.5 rounded-full bg-teal" />
-            Quận Hải Châu, Đà Nẵng
+            {property.location}
           </span>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-            Studio gần chợ Hàn — trung tâm Đà Nẵng
-          </h1>
-          <p className="mt-3 text-sm text-muted-foreground">
-            1 giường queen · Phòng tắm riêng · Café đặc sản miễn phí mỗi sáng
-          </p>
+          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">{property.title}</h1>
+          <p className="mt-3 text-sm text-muted-foreground">{property.summary}</p>
           <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1.5 font-medium">
-              ★ 5.0 · 13 đánh giá
+              ★ {property.rating.toFixed(1)} · {property.reviews} đánh giá
             </span>
-            <span className="text-muted-light">Được khách yêu thích · Host: Anh</span>
+            <span className="text-muted-light">Được khách yêu thích · Host: {property.host}</span>
           </div>
         </header>
 
@@ -139,9 +105,7 @@ function Listing() {
 
         <section className="mt-10">
           <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
-            Căn hộ rộng rãi ngay trung tâm Đà Nẵng, chỉ vài bước chân tới chợ Hàn, Nhà thờ Chính
-            tòa, sông Hàn cùng vô số quán café và nhà hàng. Thưởng thức café đặc sản miễn phí mỗi
-            sáng. Lý tưởng cho cặp đôi, người đi công tác và digital nomad.
+            {property.description}
           </p>
         </section>
 
