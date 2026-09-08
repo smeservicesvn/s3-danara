@@ -35,6 +35,24 @@ Mở [http://localhost:3000](http://localhost:3000) trong trình duyệt.
 - Ngày ra mắt hiện tại là giả định. Có thể cập nhật trong `src/routes/index.tsx`.
 - Ô email hiện chỉ hiển thị thông báo cảm ơn. Để lưu email thật, cần tích hợp backend hoặc dịch vụ form.
 
+## CDN ảnh Danara (`public/assets/`)
+
+Repo này còn là **CDN ảnh công khai** của Danara qua jsDelivr. Mọi file trong
+`public/` được phục vụ tại:
+
+```
+https://cdn.jsdelivr.net/gh/smeservicesvn/s3-danara/public/<đường-dẫn>
+```
+
+- `public/assets/<nhóm>/<tên>.webp` — ảnh listing / fit-out.
+- Backend (`smess-core-services`, module Danara) lưu **đường dẫn tương đối**
+  (ví dụ `my-khe-one-bedroom/hero-1920x1080.webp`) và ghép tiền tố
+  `cdn_image_base_url` của Client Danara khi trả API — xem
+  `docs/gpm`/Danara README bên workspace.
+- **Không** ghi đè `favicon.ico` / `robots.txt`. Không force-push (Lovable).
+- jsDelivr cache đường dẫn cũ tới 7 ngày; purge:
+  `curl -sS https://purge.jsdelivr.net/gh/smeservicesvn/s3-danara/public/<đường-dẫn>`
+
 ## Built with Lovable
 
 Project được xây dựng và quản lý trên [Lovable](https://lovable.dev).
