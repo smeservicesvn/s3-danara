@@ -43,6 +43,8 @@ const photos = [
   { src: IMG("518cab97-39a0-4fb4-b09b-bb6f67172856"), alt: "Ban công" },
 ];
 
+const [heroPhoto, ...gridPhotos] = photos;
+
 const spaces = [
   {
     title: "Phòng ngủ",
