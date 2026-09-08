@@ -1,0 +1,58 @@
+{
+  "id": "1716678250223860210",
+  "source": {
+    "platform": "Airbnb",
+    "url": "https://www.airbnb.com/rooms/1716678250223860210"
+  },
+  "title": "Studio gần chợ Hàn — trung tâm Đà Nẵng",
+  "location": "Quận Hải Châu, Đà Nẵng",
+  "host": "Anh",
+  "rating": 5.0,
+  "reviews": 13,
+  "summary": "1 giường queen · Phòng tắm riêng · Café đặc sản miễn phí mỗi sáng",
+  "description": "Căn hộ rộng rãi ngay trung tâm Đà Nẵng, chỉ vài bước chân tới chợ Hàn, Nhà thờ Chính tòa, sông Hàn cùng vô số quán café và nhà hàng. Thưởng thức café đặc sản miễn phí mỗi sáng. Lý tưởng cho cặp đôi, người đi công tác và digital nomad.",
+  "photos": [
+    { "file": "bedroom.jpg", "alt": "Phòng ngủ studio" },
+    { "file": "living.jpg", "alt": "Không gian sống" },
+    { "file": "kitchen.jpg", "alt": "Bếp và bàn ăn" },
+    { "file": "bathroom.jpg", "alt": "Phòng tắm" },
+    { "file": "balcony.jpg", "alt": "Ban công" }
+  ],
+  "highlights": [
+    { "title": "Tự nhận phòng", "text": "Nhận phòng qua nhân viên tòa nhà." },
+    {
+      "title": "Vị trí yên tĩnh, thuận tiện",
+      "text": "Khu vực thanh bình, dễ dàng di chuyển khắp thành phố."
+    },
+    {
+      "title": "Phòng riêng trong căn hộ",
+      "text": "Phòng riêng của bạn, dùng chung một số không gian."
+    }
+  ],
+  "spaces": [
+    {
+      "title": "Phòng ngủ",
+      "text": "Phòng ngủ sáng và ấm cúng với giường queen, ga mềm, điều hòa và tủ quần áo."
+    },
+    {
+      "title": "Khu vực sinh hoạt",
+      "text": "Smart TV, ghế ngồi thoải mái và góc làm việc với Wi-Fi tốc độ cao."
+    },
+    {
+      "title": "Bếp",
+      "text": "Bếp nhỏ đầy đủ: tủ lạnh, lò vi sóng, ấm đun, nồi chảo và bát đũa cơ bản."
+    },
+    {
+      "title": "Phòng tắm",
+      "text": "Phòng tắm riêng với nước nóng, khăn sạch, dầu gội, sữa tắm và máy sấy tóc."
+    },
+    {
+      "title": "Ban công",
+      "text": "Ban công riêng ngắm thành phố — lý tưởng cho ly café buổi sáng."
+    },
+    {
+      "title": "Café đặc sản",
+      "text": "Miễn phí café đặc sản từ quán của chúng tôi mỗi sáng."
+    }
+  ]
+}
