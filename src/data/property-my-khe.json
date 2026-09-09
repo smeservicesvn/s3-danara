@@ -1,0 +1,53 @@
+{
+  "id": "36982201",
+  "source": {
+    "platform": "Airbnb",
+    "url": "https://www.airbnb.com/rooms/36982201"
+  },
+  "title": "Co-living gần biển Mỹ Khê — bữa sáng miễn phí",
+  "location": "Quận Sơn Trà, Đà Nẵng",
+  "host": "Vnest Hospitality Consulting",
+  "rating": 4.85,
+  "reviews": 98,
+  "summary": "Phòng studio · 1 giường queen · Bữa sáng miễn phí · 5 phút ra biển Mỹ Khê",
+  "description": "Studio 25m² tại The Nắng Suites — ngôi nhà co-living cách biển Mỹ Khê chỉ 5 phút đi bộ. Phòng có giường queen, bếp nhỏ và phòng tắm khép kín, ban công riêng đón nắng sớm. Giá đã bao gồm bữa sáng, xe đạp miễn phí và quyền sử dụng không gian chung: phòng chiếu phim, bếp chung và khu sinh hoạt co-living. Ra vào tự do 24/7.",
+  "photos": [
+    { "file": "mykhe-bedroom.jpg", "alt": "Phòng ngủ studio tông xanh teal" },
+    { "file": "mykhe-bedroom2.jpg", "alt": "Phòng ngủ với ghế thư giãn" },
+    { "file": "mykhe-balcony.jpg", "alt": "Ban công riêng với bàn trà" },
+    { "file": "mykhe-common.jpg", "alt": "Không gian co-living chung" },
+    { "file": "mykhe-living.jpg", "alt": "Phòng sinh hoạt chung và thư viện" },
+    { "file": "mykhe-bedroom3.jpg", "alt": "Phòng ngủ với TV" }
+  ],
+  "highlights": [
+    { "title": "Bữa sáng miễn phí", "text": "Giá phòng đã bao gồm bữa sáng mỗi ngày." },
+    { "title": "Xe đạp miễn phí", "text": "Thoải mái khám phá Sơn Trà và bờ biển Mỹ Khê." },
+    { "title": "Tự nhận phòng 24/7", "text": "Ra vào tòa nhà bất cứ lúc nào, chủ nhà chỉ cách một tin nhắn." }
+  ],
+  "spaces": [
+    {
+      "title": "Phòng ngủ",
+      "text": "Giường queen, mành chắn sáng, két sắt, tủ quần áo và bàn là."
+    },
+    {
+      "title": "Bếp nhỏ",
+      "text": "Tủ lạnh mini, lò vi sóng, ấm đun, máy pha cà phê nhỏ giọt và bát đĩa đầy đủ."
+    },
+    {
+      "title": "Phòng tắm",
+      "text": "Phòng tắm khép kín với nước nóng, máy sấy tóc và đồ vệ sinh cá nhân."
+    },
+    {
+      "title": "Ban công riêng",
+      "text": "Mở cửa ban công đón nắng và ngắm nhịp sống khu phố."
+    },
+    {
+      "title": "Không gian co-living",
+      "text": "Khu sinh hoạt chung để trò chuyện, làm việc, cùng phòng chiếu phim homie."
+    },
+    {
+      "title": "Bếp chung",
+      "text": "Nhà bếp chung đầy đủ dụng cụ để tự nấu ăn."
+    }
+  ]
+}
