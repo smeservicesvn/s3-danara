@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ListingRouteImport } from './routes/listing'
+import { Route as ListingMyKheRouteImport } from './routes/listing-my-khe'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const ListingRoute = ListingRouteImport.update({
   path: '/listing',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ListingMyKheRoute = ListingMyKheRouteImport.update({
+  id: '/listing-my-khe',
+  path: '/listing-my-khe',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/listing': typeof ListingRoute
+  '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/listing': typeof ListingRoute
+  '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/listing': typeof ListingRoute
+  '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/listing'
+  fullPaths: '/' | '/listing' | '/listing-my-khe'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/listing'
-  id: '__root__' | '/' | '/listing'
+  to: '/' | '/listing' | '/listing-my-khe'
+  id: '__root__' | '/' | '/listing' | '/listing-my-khe'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ListingRoute: typeof ListingRoute
+  ListingMyKheRoute: typeof ListingMyKheRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ListingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/listing-my-khe': {
+      id: '/listing-my-khe'
+      path: '/listing-my-khe'
+      fullPath: '/listing-my-khe'
+      preLoaderRoute: typeof ListingMyKheRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ListingRoute: ListingRoute,
+  ListingMyKheRoute: ListingMyKheRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
