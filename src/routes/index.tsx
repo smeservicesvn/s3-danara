@@ -126,13 +126,22 @@ function ComingSoon() {
             </p>
           </form>
 
-          <Link
-            to="/listing"
-            className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
-          >
-            Xem căn mẫu tại Đà Nẵng
-            <span aria-hidden>→</span>
-          </Link>
+          <div className="mt-5 flex flex-col gap-2">
+            <Link
+              to="/listing"
+              className="inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
+            >
+              Xem căn mẫu gần chợ Hàn
+              <span aria-hidden>→</span>
+            </Link>
+            <Link
+              to="/listing-my-khe"
+              className="inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
+            >
+              Xem căn mẫu gần biển Mỹ Khê
+              <span aria-hidden>→</span>
+            </Link>
+          </div>
         </div>
 
         <footer className="border-t border-border pt-6 text-xs text-muted-light">
