@@ -1,0 +1,55 @@
+{
+  "id": "1720827279524021872",
+  "source": {
+    "platform": "Airbnb",
+    "url": "https://www.airbnb.com/rooms/1720827279524021872"
+  },
+  "title": "Cozy Apartment — 3 phút tới biển Mỹ Khê",
+  "location": "Quận Sơn Trà, Đà Nẵng",
+  "host": "N&N Staycation",
+  "rating": 4.9,
+  "reviews": 21,
+  "summary": "1 giường king · Phòng tắm riêng khép kín · Bếp đầy đủ · Đỗ xe miễn phí",
+  "description": "Căn hộ ấm cúng tại Sơn Trà, chỉ 3 phút tới biển Mỹ Khê. Không gian sáng sủa với giường king, bếp đầy đủ tiện nghi, góc làm việc và Wi-Fi tốc độ cao. Có máy giặt/sấy và chỗ đỗ xe miễn phí, tự nhận phòng linh hoạt — phù hợp cho cặp đôi, khách công tác và digital nomad.",
+  "photos": [
+    { "file": "cozy-01.jpg", "alt": "Phòng ngủ với giường king" },
+    { "file": "cozy-02.jpg", "alt": "Không gian sống" },
+    { "file": "cozy-03.jpg", "alt": "Bếp đầy đủ tiện nghi" },
+    { "file": "cozy-04.jpg", "alt": "Góc làm việc" },
+    { "file": "cozy-05.jpg", "alt": "Phòng tắm riêng khép kín" },
+    { "file": "cozy-06.jpg", "alt": "Khu vực ăn uống" },
+    { "file": "cozy-07.jpg", "alt": "Ban công" },
+    { "file": "cozy-08.jpg", "alt": "Toàn cảnh căn hộ" }
+  ],
+  "highlights": [
+    { "title": "Tự nhận phòng", "text": "Nhận phòng linh hoạt, không cần chờ đợi." },
+    { "title": "3 phút tới biển", "text": "Đi bộ vài phút là tới bãi biển Mỹ Khê." },
+    { "title": "Đỗ xe miễn phí", "text": "Chỗ đỗ xe máy và ô tô miễn phí ngay tại tòa nhà." }
+  ],
+  "spaces": [
+    {
+      "title": "Phòng ngủ",
+      "text": "Giường king rộng rãi, ga sạch, điều hòa và rèm cản sáng."
+    },
+    {
+      "title": "Khu vực sinh hoạt",
+      "text": "Ghế ngồi thoải mái, Smart TV và không gian mở thoáng đãng."
+    },
+    {
+      "title": "Bếp",
+      "text": "Bếp đầy đủ với tủ lạnh, bếp nấu, dụng cụ và bát đũa cơ bản."
+    },
+    {
+      "title": "Phòng tắm",
+      "text": "Phòng tắm riêng khép kín với nước nóng, khăn và đồ vệ sinh cá nhân."
+    },
+    {
+      "title": "Góc làm việc",
+      "text": "Bàn làm việc và Wi-Fi tốc độ cao, phù hợp làm việc từ xa."
+    },
+    {
+      "title": "Tiện ích khác",
+      "text": "Máy giặt/sấy miễn phí và chỗ đỗ xe ngay tại tòa nhà."
+    }
+  ]
+}
