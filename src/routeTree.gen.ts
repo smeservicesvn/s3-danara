@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ListingRouteImport } from './routes/listing'
+import { Route as ListingCozyRouteImport } from './routes/listing-cozy'
 import { Route as ListingMyKheRouteImport } from './routes/listing-my-khe'
 
 const IndexRoute = IndexRouteImport.update({
@@ -23,6 +24,11 @@ const ListingRoute = ListingRouteImport.update({
   path: '/listing',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ListingCozyRoute = ListingCozyRouteImport.update({
+  id: '/listing-cozy',
+  path: '/listing-cozy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ListingMyKheRoute = ListingMyKheRouteImport.update({
   id: '/listing-my-khe',
   path: '/listing-my-khe',
@@ -32,30 +38,34 @@ const ListingMyKheRoute = ListingMyKheRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/listing': typeof ListingRoute
+  '/listing-cozy': typeof ListingCozyRoute
   '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/listing': typeof ListingRoute
+  '/listing-cozy': typeof ListingCozyRoute
   '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/listing': typeof ListingRoute
+  '/listing-cozy': typeof ListingCozyRoute
   '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/listing' | '/listing-my-khe'
+  fullPaths: '/' | '/listing' | '/listing-cozy' | '/listing-my-khe'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/listing' | '/listing-my-khe'
-  id: '__root__' | '/' | '/listing' | '/listing-my-khe'
+  to: '/' | '/listing' | '/listing-cozy' | '/listing-my-khe'
+  id: '__root__' | '/' | '/listing' | '/listing-cozy' | '/listing-my-khe'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ListingRoute: typeof ListingRoute
+  ListingCozyRoute: typeof ListingCozyRoute
   ListingMyKheRoute: typeof ListingMyKheRoute
 }
 
@@ -75,6 +85,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ListingRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/listing-cozy': {
+      id: '/listing-cozy'
+      path: '/listing-cozy'
+      fullPath: '/listing-cozy'
+      preLoaderRoute: typeof ListingCozyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/listing-my-khe': {
       id: '/listing-my-khe'
       path: '/listing-my-khe'
@@ -88,6 +105,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ListingRoute: ListingRoute,
+  ListingCozyRoute: ListingCozyRoute,
   ListingMyKheRoute: ListingMyKheRoute,
 }
 export const routeTree = rootRouteImport
