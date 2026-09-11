@@ -148,6 +148,13 @@ function ComingSoon() {
               Xem căn Cozy Apartment — 3 phút tới biển
               <span aria-hidden>→</span>
             </Link>
+            <Link
+              to="/listing-banana"
+              className="inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
+            >
+              Xem căn Banana Flower — gần sông Hàn
+              <span aria-hidden>→</span>
+            </Link>
           </div>
         </div>
 

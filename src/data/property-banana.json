@@ -1,0 +1,61 @@
+{
+  "id": "34721476",
+  "source": {
+    "platform": "Airbnb",
+    "url": "https://www.airbnb.com/rooms/34721476"
+  },
+  "title": "Banana Flower — gần sông Hàn, giường king",
+  "location": "Quận Hải Châu, Đà Nẵng",
+  "host": "Khoa",
+  "rating": 4.93,
+  "reviews": 243,
+  "summary": "Căn hộ nguyên căn 26m² · 2 khách · 1 giường king · Phòng tắm riêng",
+  "description": "Banana Flower Homestay xây năm 2019, cao 4 tầng: tầng 4 là căn hộ 2 phòng ngủ của gia đình chủ nhà, các tầng còn lại có 5 căn hộ nhỏ dành cho khách. Đối diện nhà là một quán café rất dễ chịu để thư giãn hoặc đọc sách. Vị trí gần sông Hàn, thuận tiện khám phá trung tâm Đà Nẵng.",
+  "photos": [
+    { "file": "banana-01.jpg", "alt": "Phòng ngủ với giường king" },
+    { "file": "banana-02.jpg", "alt": "Không gian sinh hoạt" },
+    { "file": "banana-03.jpg", "alt": "Bếp riêng" },
+    { "file": "banana-04.jpg", "alt": "Phòng tắm riêng" },
+    { "file": "banana-05.jpg", "alt": "Ban công" },
+    { "file": "banana-06.jpg", "alt": "Góc làm việc" },
+    { "file": "banana-07.jpg", "alt": "Quán café đối diện" },
+    { "file": "banana-08.jpg", "alt": "Mặt tiền homestay" }
+  ],
+  "highlights": [
+    {
+      "title": "Nhận phòng xuất sắc",
+      "text": "Khách gần đây chấm 5 sao cho trải nghiệm nhận phòng."
+    },
+    { "title": "Superhost", "text": "Chủ nhà Khoa là Superhost với 7 năm đón khách." },
+    {
+      "title": "Được khách yêu thích",
+      "text": "4.93 sao từ 243 đánh giá — một trong những căn được yêu thích nhất."
+    }
+  ],
+  "spaces": [
+    {
+      "title": "Phòng ngủ",
+      "text": "Giường king 1,8m x 2m, điều hòa, chăn ga sạch sẽ."
+    },
+    {
+      "title": "Bếp riêng",
+      "text": "Bếp riêng đầy đủ với tủ lạnh và dụng cụ nấu ăn cơ bản."
+    },
+    {
+      "title": "Phòng tắm",
+      "text": "Phòng tắm riêng có vòi sen và nước nóng."
+    },
+    {
+      "title": "Ban công",
+      "text": "Mỗi căn 26m² đều có ban công riêng thoáng mát."
+    },
+    {
+      "title": "Tiện nghi",
+      "text": "Wi-Fi miễn phí, Smart TV 40 inch, thang máy, đỗ xe trên phố miễn phí."
+    },
+    {
+      "title": "Café tại chỗ",
+      "text": "Quán café đối diện để thư giãn, đọc sách và giao lưu với người địa phương."
+    }
+  ]
+}
