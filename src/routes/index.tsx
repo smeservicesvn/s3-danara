@@ -155,6 +155,14 @@ function ComingSoon() {
               Xem căn Banana Flower — gần sông Hàn
               <span aria-hidden>→</span>
             </Link>
+            <Link
+              to="/listing-langmandi"
+              className="inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
+            >
+              Xem căn Langmandi Chapter I — gần biển Mỹ Khê
+              <span aria-hidden>→</span>
+            </Link>
+
           </div>
         </div>
 

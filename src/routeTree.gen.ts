@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as ListingRouteImport } from './routes/listing'
 import { Route as ListingBananaRouteImport } from './routes/listing-banana'
 import { Route as ListingCozyRouteImport } from './routes/listing-cozy'
+import { Route as ListingLangmandiRouteImport } from './routes/listing-langmandi'
 import { Route as ListingMyKheRouteImport } from './routes/listing-my-khe'
 
 const IndexRoute = IndexRouteImport.update({
@@ -35,6 +36,11 @@ const ListingCozyRoute = ListingCozyRouteImport.update({
   path: '/listing-cozy',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ListingLangmandiRoute = ListingLangmandiRouteImport.update({
+  id: '/listing-langmandi',
+  path: '/listing-langmandi',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ListingMyKheRoute = ListingMyKheRouteImport.update({
   id: '/listing-my-khe',
   path: '/listing-my-khe',
@@ -46,6 +52,7 @@ export interface FileRoutesByFullPath {
   '/listing': typeof ListingRoute
   '/listing-banana': typeof ListingBananaRoute
   '/listing-cozy': typeof ListingCozyRoute
+  '/listing-langmandi': typeof ListingLangmandiRoute
   '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRoutesByTo {
@@ -53,6 +60,7 @@ export interface FileRoutesByTo {
   '/listing': typeof ListingRoute
   '/listing-banana': typeof ListingBananaRoute
   '/listing-cozy': typeof ListingCozyRoute
+  '/listing-langmandi': typeof ListingLangmandiRoute
   '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRoutesById {
@@ -61,20 +69,33 @@ export interface FileRoutesById {
   '/listing': typeof ListingRoute
   '/listing-banana': typeof ListingBananaRoute
   '/listing-cozy': typeof ListingCozyRoute
+  '/listing-langmandi': typeof ListingLangmandiRoute
   '/listing-my-khe': typeof ListingMyKheRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/listing' | '/listing-banana' | '/listing-cozy' | '/listing-my-khe'
+    | '/'
+    | '/listing'
+    | '/listing-banana'
+    | '/listing-cozy'
+    | '/listing-langmandi'
+    | '/listing-my-khe'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/listing' | '/listing-banana' | '/listing-cozy' | '/listing-my-khe'
+  to:
+    | '/'
+    | '/listing'
+    | '/listing-banana'
+    | '/listing-cozy'
+    | '/listing-langmandi'
+    | '/listing-my-khe'
   id:
     | '__root__'
     | '/'
     | '/listing'
     | '/listing-banana'
     | '/listing-cozy'
+    | '/listing-langmandi'
     | '/listing-my-khe'
   fileRoutesById: FileRoutesById
 }
@@ -83,6 +104,7 @@ export interface RootRouteChildren {
   ListingRoute: typeof ListingRoute
   ListingBananaRoute: typeof ListingBananaRoute
   ListingCozyRoute: typeof ListingCozyRoute
+  ListingLangmandiRoute: typeof ListingLangmandiRoute
   ListingMyKheRoute: typeof ListingMyKheRoute
 }
 
@@ -116,6 +138,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ListingCozyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/listing-langmandi': {
+      id: '/listing-langmandi'
+      path: '/listing-langmandi'
+      fullPath: '/listing-langmandi'
+      preLoaderRoute: typeof ListingLangmandiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/listing-my-khe': {
       id: '/listing-my-khe'
       path: '/listing-my-khe'
@@ -131,6 +160,7 @@ const rootRouteChildren: RootRouteChildren = {
   ListingRoute: ListingRoute,
   ListingBananaRoute: ListingBananaRoute,
   ListingCozyRoute: ListingCozyRoute,
+  ListingLangmandiRoute: ListingLangmandiRoute,
   ListingMyKheRoute: ListingMyKheRoute,
 }
 export const routeTree = rootRouteImport
