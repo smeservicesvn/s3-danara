@@ -1,0 +1,62 @@
+{
+  "id": "1699890849357064790",
+  "source": {
+    "platform": "Airbnb",
+    "url": "https://www.airbnb.com/rooms/1699890849357064790"
+  },
+  "title": "Langmandi Chapter I — studio gần biển Mỹ Khê",
+  "location": "Quận Ngũ Hành Sơn, Đà Nẵng",
+  "host": "Nguyen Phuong",
+  "rating": 4.86,
+  "reviews": 7,
+  "summary": "Studio trong toà boutique · 1 giường queen · Phòng tắm riêng khép kín",
+  "description": "Langmandi Chapter là toà căn hộ boutique mới mở với 17 studio trên 4 tầng, thiết kế sáng tạo pha nét ấm áp như ở nhà. Địa chỉ 19 My Da Dong 7, Quận Ngũ Hành Sơn, ngay cạnh chợ Bắc Mỹ An: 1 phút đi bộ tới chợ, 5 phút xe tới khu An Thượng, 10–15 phút tới biển Mỹ Khê. Phù hợp cho kỳ nghỉ, làm việc từ xa hoặc lưu trú dài ngày. Lưu ý: toà 4 tầng không có thang máy và hiện có công trình xây dựng bên cạnh (thường 7:30–17:00).",
+  "photos": [
+    { "file": "langmandi-01.jpg", "alt": "Studio với giường queen" },
+    { "file": "langmandi-02.jpg", "alt": "Không gian sinh hoạt trong studio" },
+    { "file": "langmandi-03.jpg", "alt": "Góc làm việc và Smart TV" },
+    { "file": "langmandi-04.jpg", "alt": "Phòng tắm riêng khép kín" },
+    { "file": "langmandi-05.jpg", "alt": "Chi tiết nội thất studio" },
+    { "file": "langmandi-06.jpg", "alt": "Khu vực bếp nhỏ" },
+    { "file": "langmandi-07.jpg", "alt": "Không gian chung của toà nhà" },
+    { "file": "langmandi-08.jpg", "alt": "Mặt tiền Langmandi Chapter" },
+    { "file": "langmandi-09.jpg", "alt": "Khu vực quanh chợ Bắc Mỹ An" }
+  ],
+  "highlights": [
+    { "title": "Tự nhận phòng", "text": "Nhận phòng cùng nhân viên toà nhà." },
+    {
+      "title": "Đỗ xe miễn phí",
+      "text": "Một trong ít chỗ trong khu vực có đỗ xe miễn phí."
+    },
+    {
+      "title": "Được khách yêu thích",
+      "text": "4.86 sao từ 7 đánh giá · chủ nhà Superhost 2 năm đón khách."
+    }
+  ],
+  "spaces": [
+    {
+      "title": "Phòng ngủ",
+      "text": "Giường queen với chăn ga cao cấp và gối mềm, điều hoà công suất lớn."
+    },
+    {
+      "title": "Góc làm việc",
+      "text": "Bàn làm việc riêng cùng Wi-Fi tốc độ cao, phù hợp họp online."
+    },
+    {
+      "title": "Phòng tắm",
+      "text": "Phòng tắm riêng rộng rãi, nước nóng và buồng sen đi vào."
+    },
+    {
+      "title": "Bếp",
+      "text": "Một số studio có bếp đầy đủ: tủ lạnh, ấm siêu tốc, bếp điện."
+    },
+    {
+      "title": "Giải trí",
+      "text": "Smart TV màn hình lớn trong mỗi studio."
+    },
+    {
+      "title": "Vị trí",
+      "text": "Cạnh chợ Bắc Mỹ An, 10–15 phút tới biển Mỹ Khê, 15 phút xe tới cầu Rồng."
+    }
+  ]
+}
