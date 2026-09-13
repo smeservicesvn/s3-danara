@@ -1,0 +1,61 @@
+{
+  "id": "1655907432605517440",
+  "source": {
+    "platform": "Airbnb",
+    "url": "https://www.airbnb.com/rooms/1655907432605517440"
+  },
+  "title": "Mandala Luxury Apartment — Panoma Tower, tầng 12",
+  "location": "Mỹ An, Đà Nẵng",
+  "host": "Hang",
+  "rating": 5.0,
+  "reviews": 8,
+  "summary": "Căn hộ nguyên căn · 2 khách · 1 phòng ngủ · 2 giường · 1 phòng tắm",
+  "description": "Studio tầng cao tại Mandala Living với view toàn cảnh sông Hàn ngay từ giường. Không gian có đèn chùm điểm nhấn màu vàng đồng, cửa kính từ sàn tới trần, góc sofa thư giãn, bếp hiện đại, bàn làm việc với hệ đèn thông minh, smart TV và ban công riêng — hoàn thiện mới theo chuẩn khách sạn.",
+  "photos": [
+    { "file": "mandala-01.jpg", "alt": "Toàn cảnh studio với giường và khu sinh hoạt" },
+    { "file": "mandala-02.jpg", "alt": "Góc làm việc bên cửa kính từ sàn tới trần" },
+    { "file": "mandala-03.jpg", "alt": "Ban công riêng với bàn ghế ngắm cảnh" },
+    { "file": "mandala-04.jpg", "alt": "Khu sinh hoạt mở nhìn ra cửa kính lớn" },
+    { "file": "mandala-05.jpg", "alt": "Phòng tắm với vòi sen kính" },
+    { "file": "mandala-06.jpg", "alt": "Bếp và tủ lạnh trong căn hộ" },
+    { "file": "mandala-07.jpg", "alt": "Bàn làm việc với đèn thông minh" },
+    { "file": "mandala-08.jpg", "alt": "Sofa và bàn trà trong không gian sinh hoạt" }
+  ],
+  "highlights": [
+    {
+      "title": "Có hồ bơi",
+      "text": "Một trong ít nơi trong khu vực có hồ bơi (phụ phí)."
+    },
+    { "title": "Tự nhận phòng", "text": "Nhận phòng bằng khóa số, chủ động giờ đến." },
+    {
+      "title": "Vị trí tuyệt vời",
+      "text": "100% khách trong năm qua chấm 5 sao cho vị trí."
+    }
+  ],
+  "spaces": [
+    {
+      "title": "Studio tầng 12",
+      "text": "Khu ngủ, làm việc và sinh hoạt liền mạch, cửa kính từ sàn tới trần đón sáng cả ngày."
+    },
+    {
+      "title": "View sông Hàn",
+      "text": "Toàn cảnh sông Hàn nhìn thẳng từ giường và khu sinh hoạt."
+    },
+    {
+      "title": "Bếp",
+      "text": "Bếp nhỏ đầy đủ, phù hợp nấu nướng nhẹ."
+    },
+    {
+      "title": "Góc làm việc",
+      "text": "Bàn làm việc riêng với hệ đèn thông minh, lý tưởng cho làm việc từ xa."
+    },
+    {
+      "title": "Ban công riêng",
+      "text": "Nơi uống café buổi sáng hoặc ngắm hoàng hôn trên sông."
+    },
+    {
+      "title": "Tiện ích toà nhà",
+      "text": "Sảnh máy lạnh với lễ tân và bảo vệ 24/7, vườn thư giãn tầng 3 miễn phí, hồ bơi và hầm đỗ xe có phụ phí."
+    }
+  ]
+}
