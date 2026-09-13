@@ -162,6 +162,14 @@ function ComingSoon() {
               Xem căn Langmandi Chapter I — gần biển Mỹ Khê
               <span aria-hidden>→</span>
             </Link>
+            <Link
+              to="/listing-mandala"
+              className="inline-flex items-center gap-1 text-sm font-medium text-teal-text transition-colors hover:text-gold-text"
+            >
+              Xem căn Mandala Luxury — view sông Hàn, tầng 12
+              <span aria-hidden>→</span>
+            </Link>
+
 
           </div>
         </div>
